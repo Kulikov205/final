@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5dfbb"
+    tools:context=".siz">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="СИЗ"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="К работе в качестве слесаря механосборочных работ допускаются лица, не моложе 18 лет, имеющие профессиональную подготовку и соответствующее удостоверение, прошедшие предварительный медицинский осмотр, при последующей работе - периодические медицинские осмотры - не реже 1 раза в 12 месяцев.
+
+К работам с применением электроинструмента допускаются лица, прошедшие проверку знаний в объеме II-ой группы по электробезопасности, при дальнейшей работе проверка знаний проводится ежегодно.
+
+К работе с грузоподъемными машинами и механизмами допускаются слесаря, прошедшие специальное обучение и имеющие соответствующее удостоверение на право выполнения таких работ. Работники, связанные с выполнением работ или обслуживанием объектов (установок, оборудования) повышенной опасности, а также объектов, подконтрольных органам государственного (федерального) надзора, должны ежегодно проходить курсовое обучение и проверку знаний по безопасности труда. Работнику, успешно прошедшему проверку знаний, выдается удостоверение на право самостоятельной работы.
+
+Работники, имеющие перерыв в работе, на которую они нанимаются, более 3-х лет, а повышенной опасностью - более 12 месяцев, должны пройти обучение и проверку знаний по безопасности труда до начала самостоятельной работы.
+
+При изменении технологического процесса или модернизации оборудования, приспособлений, переводе на новую временную или постоянную работу, нарушении работающим требований безопасности, которое может привести к травме, аварии или пожару, а также при перерывах в работе более чем на 30 календарных дней, работник обязан пройти внеплановый инструктаж (с соответствующей записью в журнале регистрации инструктажей).
+
+К самостоятельной работе допускаются лица, ознакомившиеся с особенностями и приемами безопасного выполнения работ и прошедшие стажировку в течение 2-14 смен под наблюдением мастера или бригадира (в зависимости от трудового стажа, опыта и характера работ).
+
+Разрешение на самостоятельное выполнение работ (после проверки полученных знаний и навыков) дает руководитель работ.
+
+Следует выполнять инструкции по охране труда, правила внутреннего распорядка, указания руководителя, работников службы охраны труда и техники безопасности и общественных инспекторов по охране труда.
+
+Знайте и соблюдайте правила личной гигиены. Не курите на рабочем месте, не употребляйте до и во время работы спиртные напитки. Не храните продукты и не принимайте пищу на рабочих местах.
+
+Выполняйте только ту работу, по которой прошли обучение, инструктаж по охране труда и к которой допущены руководителем
+
+На рабочее место не допускаются лица, не имеющие отношения к выполняемой работе. Не перепоручайте выполнение своей работы другим лицам.
+
+Выполняйте требования знаков безопасности.
+
+Не заходите за ограждения электрооборудования.
+
+Будьте внимательны к предупредительным сигналам грузоподъемных машин, автомобилей, тракторов и других видов движущегося транспорта." />
+
+            <VideoView
+                android:id="@+id/siz"
+                android:layout_width="482dp"
+                android:layout_height="502dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Инструменты"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Система 5S (5С) – метод организации рабочего места (пространства), нацеленный на создание оптимальных условий труда, поддержания порядка и чистоты." />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Данная нейронка использует Excel таблицу с информацией о ключах, чтобы оповестить работника о пропаже." />
+
+            <VideoView
+                android:id="@+id/videoView3"
+                android:layout_width="482dp"
+                android:layout_height="502dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Проверка"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rotationX="-360"
+                android:text="80% распознавания" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cложности возникли со съёмкой видео и roboflow" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cложности с выводом информации из Excel таблицы заключались в: неправильном подключение к таблице, неточное нахождение контура инструмента и его номера" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

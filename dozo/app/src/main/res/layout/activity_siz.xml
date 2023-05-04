@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotationX="0"
+    tools:context=".siz">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="СИЗ"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="К самостоятельной работе на персональном компьютере (далее потексту - ПК) допускаются лица, прошедшие медицинский осмотр и не имеющие
+противопоказаний для работы на ПК, инструктаж по охране труда, обучениебезопасным методам выполнения работ, проверку знаний требований охраны труда,
+имеющие 1 группу по электробезопасности.Работник должен знать, что при выполнении работ на ПК на него могут
+оказывать воздействие следующие вредные и (или) опасные производственныефакторы:
+- повышенная температура поверхностей ПК;- повышенная или пониженная температура воздуха рабочей зоны;
+- повышенное значение напряжения в электрической цепи, замыкание;- повышенный уровень статического электричества;
+- повышенный уровень электромагнитных излучений;- повышенная напряженность электрического поля;
+- отсутствие или недостаток естественного света;- недостаточная искусственная освещенность рабочей зоны;
+- повышенная яркость света;- повышенная контрастность;
+- прямая и отраженная блесткость;- зрительное напряжение;
+- длительные статические нагрузки;- монотонность трудового процесса.
+Санитарно-эпидемиологические требования к эксплуатации ПК и организации рабочих мест с ПК определены СанПиН 2.2.272.4.1340-03.При выполнении работ на персональном компьютере, работник обязан:
+- соблюдать производственную и технологическую дисциплину;- соблюдать режим труда и отдыха в зависимости от продолжительности, вида
+и категории трудовой деятельности;- выполнять только ту работу, которая определена его должностной
+инструкцией;- поддерживать порядок на рабочем месте в течение всего рабочего времени;
+- обо всех неисправностях ПК и электропитания немедленно сообщатьнепосредственному руководителю;
+- соблюдать требования пожарной безопасности и электробезопасности.За нарушение требований охраны труда работник привлекается к
+ответственности в порядке, установленном законодательством РФ." />
+
+            <VideoView
+                android:id="@+id/siz"
+                android:layout_width="482dp"
+                android:layout_height="502dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Инструменты"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Система 5S (5С) – метод организации рабочего места (пространства), нацеленный на создание оптимальных условий труда, поддержания порядка и чистоты." />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Данная нейронка использует Excel таблицу с информацией о ключах, чтобы оповестить работника о пропаже." />
+
+            <VideoView
+                android:id="@+id/videoView3"
+                android:layout_width="482dp"
+                android:layout_height="502dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Проверка"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rotationX="-360"
+                android:text="80% распознавания" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cложности возникли со съёмкой видео и roboflow" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cложности с выводом информации из Excel таблицы заключались в: неправильном подключение к таблице, неточное нахождение контура инструмента и его номера" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
